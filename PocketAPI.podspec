@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '3.0'
   s.osx.deployment_target = '10.6'
 
-  s.source_files = 'SDK/**/*.{h,m}'
+  s.source_files = 'SDK/**/*.{h,m,png}'
 
   s.public_header_files = 'SDK/**/PocketAPI*.h'
 
